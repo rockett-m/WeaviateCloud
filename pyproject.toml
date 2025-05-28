@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A project using Weaviate vector database"
 requires-python = ">=3.12"
 dependencies = [
-    "weaviate-client",
+    "weaviate-client>=3.26.7,<4.0.0",
     "load_dotenv",
     "grpcio",
     "grpcio-tools",
@@ -12,7 +12,8 @@ dependencies = [
     "grpcio-reflection",
     "openai",
     "httpx",
-    "requests"
+    "requests",
+
 ]
 
 [tool.ruff]
