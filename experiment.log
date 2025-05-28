@@ -1,0 +1,422 @@
+2025-05-27 19:14:00,874 - WeaviateExperiment - INFO - Starting Weaviate module experiments
+2025-05-27 19:14:00,874 - WeaviateExperiment - INFO - Connecting to Weaviate at aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud
+2025-05-27 19:14:01,479 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:14:02,318 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-05-27 19:14:02,409 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/.well-known/ready "HTTP/1.1 200 OK"
+2025-05-27 19:14:02,409 - WeaviateExperiment - INFO - Connection status: True
+2025-05-27 19:14:02,409 - WeaviateExperiment - INFO - Retrieving available modules from Weaviate
+2025-05-27 19:14:02,444 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO - Found 39 modules
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO - Available modules by category:
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO -   generative: generative-anthropic, generative-anyscale, generative-aws, generative-cohere, generative-databricks, generative-friendliai, generative-google, generative-mistral, generative-nvidia, generative-octoai, generative-ollama, generative-openai, generative-xai
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO -   multi2vec: multi2vec-cohere, multi2vec-google, multi2vec-jinaai, multi2vec-nvidia, multi2vec-voyageai
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO -   qna: qna-openai
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO -   ref2vec: ref2vec-centroid
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO -   reranker: reranker-cohere, reranker-jinaai, reranker-nvidia, reranker-voyageai
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO -   text2colbert: text2colbert-jinaai
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO -   text2vec: text2vec-aws, text2vec-cohere, text2vec-databricks, text2vec-google, text2vec-huggingface, text2vec-jinaai, text2vec-mistral, text2vec-nvidia, text2vec-octoai, text2vec-ollama, text2vec-openai, text2vec-voyageai, text2vec-weaviate
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO -   other: backup-gcs
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-aws
+==================================================
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-aws
+2025-05-27 19:14:02,444 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:02,444 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:02,444 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:02,445 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-aws: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:03,450 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-cohere
+==================================================
+2025-05-27 19:14:03,450 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-cohere
+2025-05-27 19:14:03,450 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:03,450 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:03,450 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:03,450 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:03,450 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-cohere: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:04,452 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-databricks
+==================================================
+2025-05-27 19:14:04,452 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-databricks
+2025-05-27 19:14:04,453 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:04,453 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:04,453 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:04,453 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:04,454 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-databricks: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:05,456 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-huggingface
+==================================================
+2025-05-27 19:14:05,456 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-huggingface
+2025-05-27 19:14:05,457 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:05,457 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:05,457 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:05,457 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:05,457 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-huggingface: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:06,457 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-jinaai
+==================================================
+2025-05-27 19:14:06,458 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-jinaai
+2025-05-27 19:14:06,458 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:06,458 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:06,458 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:06,458 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:06,458 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-jinaai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:07,460 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-mistral
+==================================================
+2025-05-27 19:14:07,460 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-mistral
+2025-05-27 19:14:07,461 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:07,461 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:07,461 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:07,461 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:07,461 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-mistral: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:08,465 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-nvidia
+==================================================
+2025-05-27 19:14:08,465 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-nvidia
+2025-05-27 19:14:08,466 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:08,466 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:08,466 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:08,466 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:08,466 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-nvidia: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:09,468 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-octoai
+==================================================
+2025-05-27 19:14:09,468 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-octoai
+2025-05-27 19:14:09,468 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:09,468 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:09,469 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:09,469 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:09,469 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-octoai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:10,474 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-ollama
+==================================================
+2025-05-27 19:14:10,474 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-ollama
+2025-05-27 19:14:10,474 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:10,474 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:10,475 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:10,475 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:10,475 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-ollama: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:11,476 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-openai
+==================================================
+2025-05-27 19:14:11,476 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-openai
+2025-05-27 19:14:11,476 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:11,476 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:11,476 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:11,476 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:11,476 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-openai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:12,481 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-voyageai
+==================================================
+2025-05-27 19:14:12,481 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-voyageai
+2025-05-27 19:14:12,482 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:12,482 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:12,482 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:12,482 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:12,482 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-voyageai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:13,484 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-weaviate
+==================================================
+2025-05-27 19:14:13,485 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-weaviate
+2025-05-27 19:14:13,485 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:13,486 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:13,486 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:13,486 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:14:13,486 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-weaviate: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:14,489 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-anthropic
+==================================================
+2025-05-27 19:14:14,489 - WeaviateExperiment - INFO - Testing generative module: generative-anthropic
+2025-05-27 19:14:14,490 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:14,490 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:14,491 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:14,491 - WeaviateExperiment - INFO - Performing generative query with generative-anthropic
+2025-05-27 19:14:14,491 - WeaviateExperiment - ERROR - Error testing generative module generative-anthropic: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:15,495 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-anyscale
+==================================================
+2025-05-27 19:14:15,495 - WeaviateExperiment - INFO - Testing generative module: generative-anyscale
+2025-05-27 19:14:15,495 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:15,495 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:15,495 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:15,495 - WeaviateExperiment - INFO - Performing generative query with generative-anyscale
+2025-05-27 19:14:15,495 - WeaviateExperiment - ERROR - Error testing generative module generative-anyscale: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:16,496 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-aws
+==================================================
+2025-05-27 19:14:16,496 - WeaviateExperiment - INFO - Testing generative module: generative-aws
+2025-05-27 19:14:16,496 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:16,496 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:16,496 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:16,496 - WeaviateExperiment - INFO - Performing generative query with generative-aws
+2025-05-27 19:14:16,497 - WeaviateExperiment - ERROR - Error testing generative module generative-aws: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:17,501 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-cohere
+==================================================
+2025-05-27 19:14:17,502 - WeaviateExperiment - INFO - Testing generative module: generative-cohere
+2025-05-27 19:14:17,502 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:17,502 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:17,502 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:17,502 - WeaviateExperiment - INFO - Performing generative query with generative-cohere
+2025-05-27 19:14:17,502 - WeaviateExperiment - ERROR - Error testing generative module generative-cohere: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:18,509 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-databricks
+==================================================
+2025-05-27 19:14:18,511 - WeaviateExperiment - INFO - Testing generative module: generative-databricks
+2025-05-27 19:14:18,511 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:18,511 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:18,511 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:18,511 - WeaviateExperiment - INFO - Performing generative query with generative-databricks
+2025-05-27 19:14:18,511 - WeaviateExperiment - ERROR - Error testing generative module generative-databricks: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:19,512 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-friendliai
+==================================================
+2025-05-27 19:14:19,512 - WeaviateExperiment - INFO - Testing generative module: generative-friendliai
+2025-05-27 19:14:19,512 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:19,513 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:19,513 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:19,513 - WeaviateExperiment - INFO - Performing generative query with generative-friendliai
+2025-05-27 19:14:19,513 - WeaviateExperiment - ERROR - Error testing generative module generative-friendliai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:20,516 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-mistral
+==================================================
+2025-05-27 19:14:20,516 - WeaviateExperiment - INFO - Testing generative module: generative-mistral
+2025-05-27 19:14:20,516 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:20,516 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:20,516 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:20,516 - WeaviateExperiment - INFO - Performing generative query with generative-mistral
+2025-05-27 19:14:20,516 - WeaviateExperiment - ERROR - Error testing generative module generative-mistral: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:21,522 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-nvidia
+==================================================
+2025-05-27 19:14:21,522 - WeaviateExperiment - INFO - Testing generative module: generative-nvidia
+2025-05-27 19:14:21,522 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:21,522 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:21,522 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:21,522 - WeaviateExperiment - INFO - Performing generative query with generative-nvidia
+2025-05-27 19:14:21,522 - WeaviateExperiment - ERROR - Error testing generative module generative-nvidia: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:22,524 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-octoai
+==================================================
+2025-05-27 19:14:22,524 - WeaviateExperiment - INFO - Testing generative module: generative-octoai
+2025-05-27 19:14:22,524 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:22,525 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:22,525 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:22,525 - WeaviateExperiment - INFO - Performing generative query with generative-octoai
+2025-05-27 19:14:22,525 - WeaviateExperiment - ERROR - Error testing generative module generative-octoai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:23,527 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-ollama
+==================================================
+2025-05-27 19:14:23,527 - WeaviateExperiment - INFO - Testing generative module: generative-ollama
+2025-05-27 19:14:23,528 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:23,528 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:23,528 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:23,528 - WeaviateExperiment - INFO - Performing generative query with generative-ollama
+2025-05-27 19:14:23,528 - WeaviateExperiment - ERROR - Error testing generative module generative-ollama: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:24,531 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-openai
+==================================================
+2025-05-27 19:14:24,531 - WeaviateExperiment - INFO - Testing generative module: generative-openai
+2025-05-27 19:14:24,531 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:24,532 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:24,532 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:24,532 - WeaviateExperiment - INFO - Performing generative query with generative-openai
+2025-05-27 19:14:24,532 - WeaviateExperiment - ERROR - Error testing generative module generative-openai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:25,533 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-xai
+==================================================
+2025-05-27 19:14:25,533 - WeaviateExperiment - INFO - Testing generative module: generative-xai
+2025-05-27 19:14:25,533 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:14:25,533 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:14:25,533 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:14:25,533 - WeaviateExperiment - INFO - Performing generative query with generative-xai
+2025-05-27 19:14:25,533 - WeaviateExperiment - ERROR - Error testing generative module generative-xai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:14:26,536 - WeaviateExperiment - INFO - Closing Weaviate connection
+2025-05-27 19:14:26,537 - WeaviateExperiment - INFO - Weaviate module experiments completed
+2025-05-27 19:15:53,912 - WeaviateExperiment - INFO - Starting Weaviate module experiments
+2025-05-27 19:15:53,912 - WeaviateExperiment - INFO - Connecting to Weaviate at aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud
+2025-05-27 19:15:54,015 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:15:54,530 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-05-27 19:15:54,846 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/.well-known/ready "HTTP/1.1 200 OK"
+2025-05-27 19:15:54,846 - WeaviateExperiment - INFO - Connection status: True
+2025-05-27 19:15:54,846 - WeaviateExperiment - INFO - Retrieving available modules from Weaviate
+2025-05-27 19:15:54,846 - WeaviateExperiment - ERROR - Error retrieving modules: 'WeaviateClient' object has no attribute 'meta'
+2025-05-27 19:15:54,847 - WeaviateExperiment - INFO - Available modules by category:
+2025-05-27 19:15:54,847 - WeaviateExperiment - INFO - 
+Note: Only testing a subset of modules. Edit the script to test more modules.
+2025-05-27 19:15:54,847 - WeaviateExperiment - INFO - Closing Weaviate connection
+2025-05-27 19:15:54,847 - WeaviateExperiment - INFO - Weaviate module experiments completed
+2025-05-27 19:16:17,226 - WeaviateExperiment - INFO - Starting Weaviate module experiments
+2025-05-27 19:16:17,226 - WeaviateExperiment - INFO - Connecting to Weaviate at aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud
+2025-05-27 19:16:17,362 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:16:17,852 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-05-27 19:16:17,908 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/.well-known/ready "HTTP/1.1 200 OK"
+2025-05-27 19:16:17,908 - WeaviateExperiment - INFO - Connection status: True
+2025-05-27 19:16:17,908 - WeaviateExperiment - INFO - Retrieving available modules from Weaviate
+2025-05-27 19:16:17,947 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/v1/meta "HTTP/1.1 404 Not Found"
+2025-05-27 19:16:17,947 - WeaviateExperiment - WARNING - No modules found in Weaviate meta information
+2025-05-27 19:16:17,947 - WeaviateExperiment - INFO - Available modules by category:
+2025-05-27 19:16:17,947 - WeaviateExperiment - INFO - 
+Note: Only testing a subset of modules. Edit the script to test more modules.
+2025-05-27 19:16:17,947 - WeaviateExperiment - INFO - Closing Weaviate connection
+2025-05-27 19:16:17,948 - WeaviateExperiment - INFO - Weaviate module experiments completed
+2025-05-27 19:16:43,892 - WeaviateExperiment - INFO - Starting Weaviate module experiments
+2025-05-27 19:16:43,893 - WeaviateExperiment - INFO - Connecting to Weaviate at aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud
+2025-05-27 19:16:43,993 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:16:44,182 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-05-27 19:16:44,243 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/.well-known/ready "HTTP/1.1 200 OK"
+2025-05-27 19:16:44,243 - WeaviateExperiment - INFO - Connection status: True
+2025-05-27 19:16:44,244 - WeaviateExperiment - INFO - Retrieving available modules from Weaviate
+2025-05-27 19:16:44,281 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1meta "HTTP/1.1 404 Not Found"
+2025-05-27 19:16:44,281 - WeaviateExperiment - WARNING - No modules found in Weaviate meta information, using modules from avail_modules.py
+2025-05-27 19:16:44,281 - WeaviateExperiment - INFO - Using test modules: text2vec-openai, generative-openai, text2vec-transformers
+2025-05-27 19:16:44,281 - WeaviateExperiment - INFO - Available modules by category:
+2025-05-27 19:16:44,281 - WeaviateExperiment - INFO -   generative: generative-openai
+2025-05-27 19:16:44,281 - WeaviateExperiment - INFO -   text2vec: text2vec-openai, text2vec-transformers
+2025-05-27 19:16:44,281 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-openai
+==================================================
+2025-05-27 19:16:44,281 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-openai
+2025-05-27 19:16:44,281 - WeaviateExperiment - ERROR - Error creating schema: _CollectionsBase.get() missing 1 required positional argument: 'name'
+2025-05-27 19:16:44,281 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:16:44,314 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/schema/ModuleTest "HTTP/1.1 404 Not Found"
+2025-05-27 19:16:44,314 - WeaviateExperiment - INFO - Adding object 1: Artificial Intelligence
+2025-05-27 19:16:44,315 - WeaviateExperiment - INFO - Adding object 2: Machine Learning
+2025-05-27 19:16:44,315 - WeaviateExperiment - INFO - Adding object 3: Vector Databases
+2025-05-27 19:16:44,348 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-05-27 19:16:45,560 - WeaviateExperiment - INFO - Test data added successfully
+2025-05-27 19:16:45,561 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:16:45,600 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-openai: Query call with protocol GRPC search failed with message explorer: get class: vectorize params: could not vectorize input for collection ModuleTest with search-type nearText. Make sure a vectorizer module is configured for this collection.
+2025-05-27 19:16:46,604 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-openai
+==================================================
+2025-05-27 19:16:46,604 - WeaviateExperiment - INFO - Testing generative module: generative-openai
+2025-05-27 19:16:46,604 - WeaviateExperiment - ERROR - Error creating schema: _CollectionsBase.get() missing 1 required positional argument: 'name'
+2025-05-27 19:16:46,605 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:16:46,645 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/schema/ModuleTest "HTTP/1.1 200 OK"
+2025-05-27 19:16:46,646 - WeaviateExperiment - INFO - Adding object 1: Artificial Intelligence
+2025-05-27 19:16:46,646 - WeaviateExperiment - INFO - Adding object 2: Machine Learning
+2025-05-27 19:16:46,646 - WeaviateExperiment - INFO - Adding object 3: Vector Databases
+2025-05-27 19:16:46,683 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/nodes "HTTP/1.1 200 OK"
+2025-05-27 19:16:47,712 - WeaviateExperiment - INFO - Test data added successfully
+2025-05-27 19:16:47,712 - WeaviateExperiment - INFO - Performing generative query with generative-openai
+2025-05-27 19:16:47,712 - WeaviateExperiment - ERROR - Error configuring generative module generative-openai: '_ConfigCollection' object has no attribute 'configure_generative'
+2025-05-27 19:16:48,717 - WeaviateExperiment - INFO - 
+Note: Only testing a subset of modules. Edit the script to test more modules.
+2025-05-27 19:16:48,717 - WeaviateExperiment - INFO - Closing Weaviate connection
+2025-05-27 19:16:48,718 - WeaviateExperiment - INFO - Weaviate module experiments completed
+2025-05-27 19:20:25,177 - WeaviateExperiment - INFO - Starting Weaviate module experiments
+2025-05-27 19:20:25,177 - WeaviateExperiment - INFO - Connecting to Weaviate at aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud
+2025-05-27 19:20:25,177 - WeaviateExperiment - ERROR - Error connecting to Weaviate: Client.__init__() got an unexpected keyword argument 'url'
+2025-05-27 19:20:25,178 - WeaviateExperiment - INFO - Weaviate module experiments completed
+2025-05-27 19:20:45,848 - WeaviateExperiment - INFO - Starting Weaviate module experiments
+2025-05-27 19:20:45,848 - WeaviateExperiment - INFO - Connecting to Weaviate at aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud
+2025-05-27 19:20:46,155 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:20:47,437 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-05-27 19:20:47,506 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/.well-known/ready "HTTP/1.1 200 OK"
+2025-05-27 19:20:47,506 - WeaviateExperiment - INFO - Connection status: True
+2025-05-27 19:20:47,506 - WeaviateExperiment - INFO - Retrieving available modules from Weaviate
+2025-05-27 19:20:47,546 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO - Found 39 modules: backup-gcs, generative-anthropic, generative-anyscale, generative-aws, generative-cohere, generative-databricks, generative-friendliai, generative-google, generative-mistral, generative-nvidia, generative-octoai, generative-ollama, generative-openai, generative-xai, multi2vec-cohere, multi2vec-google, multi2vec-jinaai, multi2vec-nvidia, multi2vec-voyageai, qna-openai, ref2vec-centroid, reranker-cohere, reranker-jinaai, reranker-nvidia, reranker-voyageai, text2colbert-jinaai, text2vec-aws, text2vec-cohere, text2vec-databricks, text2vec-google, text2vec-huggingface, text2vec-jinaai, text2vec-mistral, text2vec-nvidia, text2vec-octoai, text2vec-ollama, text2vec-openai, text2vec-voyageai, text2vec-weaviate
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO - Available modules by category:
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO -   generative: generative-anthropic, generative-anyscale, generative-aws, generative-cohere, generative-databricks, generative-friendliai, generative-google, generative-mistral, generative-nvidia, generative-octoai, generative-ollama, generative-openai, generative-xai
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO -   multi2vec: multi2vec-cohere, multi2vec-google, multi2vec-jinaai, multi2vec-nvidia, multi2vec-voyageai
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO -   qna: qna-openai
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO -   ref2vec: ref2vec-centroid
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO -   reranker: reranker-cohere, reranker-jinaai, reranker-nvidia, reranker-voyageai
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO -   text2colbert: text2colbert-jinaai
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO -   text2vec: text2vec-aws, text2vec-cohere, text2vec-databricks, text2vec-google, text2vec-huggingface, text2vec-jinaai, text2vec-mistral, text2vec-nvidia, text2vec-octoai, text2vec-ollama, text2vec-openai, text2vec-voyageai, text2vec-weaviate
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO -   other: backup-gcs
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-openai
+==================================================
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-openai
+2025-05-27 19:20:47,547 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:20:47,547 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:20:47,547 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:20:47,547 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-openai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:20:48,551 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-openai
+==================================================
+2025-05-27 19:20:48,551 - WeaviateExperiment - INFO - Testing generative module: generative-openai
+2025-05-27 19:20:48,551 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:20:48,551 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:20:48,551 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:20:48,551 - WeaviateExperiment - INFO - Performing generative query with generative-openai
+2025-05-27 19:20:48,551 - WeaviateExperiment - ERROR - Error testing generative module generative-openai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:20:49,556 - WeaviateExperiment - INFO - 
+Module testing completed. To test more modules, edit the run_module_tests method.
+2025-05-27 19:20:49,556 - WeaviateExperiment - INFO - Closing Weaviate connection
+2025-05-27 19:20:49,556 - WeaviateExperiment - INFO - Weaviate module experiments completed
+2025-05-27 19:21:29,079 - WeaviateExperiment - INFO - Starting Weaviate module experiments
+2025-05-27 19:21:29,079 - WeaviateExperiment - INFO - Connecting to Weaviate at aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud
+2025-05-27 19:21:29,203 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:21:30,026 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-05-27 19:21:30,082 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/.well-known/ready "HTTP/1.1 200 OK"
+2025-05-27 19:21:30,082 - WeaviateExperiment - INFO - Connection status: True
+2025-05-27 19:21:30,082 - WeaviateExperiment - INFO - Retrieving available modules from Weaviate
+2025-05-27 19:21:30,115 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO - Found 39 modules: backup-gcs, generative-anthropic, generative-anyscale, generative-aws, generative-cohere, generative-databricks, generative-friendliai, generative-google, generative-mistral, generative-nvidia, generative-octoai, generative-ollama, generative-openai, generative-xai, multi2vec-cohere, multi2vec-google, multi2vec-jinaai, multi2vec-nvidia, multi2vec-voyageai, qna-openai, ref2vec-centroid, reranker-cohere, reranker-jinaai, reranker-nvidia, reranker-voyageai, text2colbert-jinaai, text2vec-aws, text2vec-cohere, text2vec-databricks, text2vec-google, text2vec-huggingface, text2vec-jinaai, text2vec-mistral, text2vec-nvidia, text2vec-octoai, text2vec-ollama, text2vec-openai, text2vec-voyageai, text2vec-weaviate
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO - Available modules by category:
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO -   generative: generative-anthropic, generative-anyscale, generative-aws, generative-cohere, generative-databricks, generative-friendliai, generative-google, generative-mistral, generative-nvidia, generative-octoai, generative-ollama, generative-openai, generative-xai
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO -   multi2vec: multi2vec-cohere, multi2vec-google, multi2vec-jinaai, multi2vec-nvidia, multi2vec-voyageai
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO -   qna: qna-openai
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO -   ref2vec: ref2vec-centroid
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO -   reranker: reranker-cohere, reranker-jinaai, reranker-nvidia, reranker-voyageai
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO -   text2colbert: text2colbert-jinaai
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO -   text2vec: text2vec-aws, text2vec-cohere, text2vec-databricks, text2vec-google, text2vec-huggingface, text2vec-jinaai, text2vec-mistral, text2vec-nvidia, text2vec-octoai, text2vec-ollama, text2vec-openai, text2vec-voyageai, text2vec-weaviate
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO -   other: backup-gcs
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO - 
+==================================================
+Testing text vectorizer: text2vec-openai
+==================================================
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO - Testing vectorizer: text2vec-openai
+2025-05-27 19:21:30,116 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:21:30,116 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:21:30,116 - WeaviateExperiment - INFO - Performing vector search with query: 'What is AI?'
+2025-05-27 19:21:30,116 - WeaviateExperiment - ERROR - Error testing vectorizer text2vec-openai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:21:31,119 - WeaviateExperiment - INFO - 
+==================================================
+Testing generative module: generative-openai
+==================================================
+2025-05-27 19:21:31,119 - WeaviateExperiment - INFO - Testing generative module: generative-openai
+2025-05-27 19:21:31,119 - WeaviateExperiment - ERROR - Error creating schema: 'WeaviateClient' object has no attribute 'schema'
+2025-05-27 19:21:31,119 - WeaviateExperiment - INFO - Adding 3 test objects to ModuleTest
+2025-05-27 19:21:31,119 - WeaviateExperiment - ERROR - Error adding test data: '_BatchClientWrapper' object does not support the context manager protocol
+2025-05-27 19:21:31,119 - WeaviateExperiment - INFO - Performing generative query with generative-openai
+2025-05-27 19:21:31,119 - WeaviateExperiment - ERROR - Error testing generative module generative-openai: 'WeaviateClient' object has no attribute 'query'
+2025-05-27 19:21:32,120 - WeaviateExperiment - INFO - 
+Module testing completed. To test more modules, edit the run_module_tests method.
+2025-05-27 19:21:32,120 - WeaviateExperiment - INFO - Closing Weaviate connection
+2025-05-27 19:21:32,120 - WeaviateExperiment - INFO - Weaviate module experiments completed

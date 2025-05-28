@@ -1,0 +1,24 @@
+2025-05-27 19:24:31,882 - OpenAIModulesDemo - INFO - Starting OpenAI modules demonstration
+2025-05-27 19:24:31,882 - OpenAIModulesDemo - INFO - Connecting to Weaviate at aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud
+2025-05-27 19:24:31,982 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:24:32,197 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-05-27 19:24:32,257 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/.well-known/ready "HTTP/1.1 200 OK"
+2025-05-27 19:24:32,258 - OpenAIModulesDemo - INFO - Connection status: True
+2025-05-27 19:24:32,314 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:24:32,315 - OpenAIModulesDemo - INFO - Creating schema with text2vec-openai vectorizer
+2025-05-27 19:24:32,360 - httpx - INFO - HTTP Request: POST https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1schema "HTTP/1.1 404 Not Found"
+2025-05-27 19:24:32,361 - OpenAIModulesDemo - ERROR - Failed to create schema: 404 - {"code":404,"message":"path /v1schema was not found"}
+2025-05-27 19:24:32,361 - OpenAIModulesDemo - INFO - Closing Weaviate connection
+2025-05-27 19:24:32,361 - OpenAIModulesDemo - INFO - OpenAI modules demonstration completed
+2025-05-27 19:25:33,939 - OpenAIModulesDemo - INFO - Starting OpenAI modules demonstration
+2025-05-27 19:25:33,939 - OpenAIModulesDemo - INFO - Connecting to Weaviate at aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud
+2025-05-27 19:25:34,377 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/meta "HTTP/1.1 200 OK"
+2025-05-27 19:25:35,434 - httpx - INFO - HTTP Request: GET https://pypi.org/pypi/weaviate-client/json "HTTP/1.1 200 OK"
+2025-05-27 19:25:35,882 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1/.well-known/ready "HTTP/1.1 200 OK"
+2025-05-27 19:25:35,882 - OpenAIModulesDemo - INFO - Connection status: True
+2025-05-27 19:25:35,882 - OpenAIModulesDemo - INFO - Creating schema with text2vec-openai vectorizer
+2025-05-27 19:25:36,070 - httpx - INFO - HTTP Request: GET https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1collections/AIArticles "HTTP/1.1 404 Not Found"
+2025-05-27 19:25:36,233 - httpx - INFO - HTTP Request: POST https://aty9jbtdsx9gzlqkn6nyq.c0.us-west3.gcp.weaviate.cloud/v1collections "HTTP/1.1 404 Not Found"
+2025-05-27 19:25:36,233 - OpenAIModulesDemo - ERROR - Failed to create schema: 404 - {"code":404,"message":"path /v1collections was not found"}
+2025-05-27 19:25:36,233 - OpenAIModulesDemo - INFO - Closing Weaviate connection
+2025-05-27 19:25:36,233 - OpenAIModulesDemo - INFO - OpenAI modules demonstration completed
