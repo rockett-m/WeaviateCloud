@@ -1,0 +1,21 @@
+[project]
+name = "weaviate-project"
+version = "0.1.0"
+description = "A project using Weaviate vector database"
+requires-python = ">=3.12"
+dependencies = [
+    "weaviate-client",
+    "load_dotenv",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.black]
+line-length = 120
+target-version = ["py312"]
+
+[tool.isort]
+profile = "black"
+line_length = 120
